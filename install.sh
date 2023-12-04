@@ -61,7 +61,7 @@ get_releases(){
     fi
 }
 
-# get_releases
+get_releases
 # version="v1.6.1"
 # version_notv="1.6.1"
 
