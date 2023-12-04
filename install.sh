@@ -62,8 +62,8 @@ get_releases(){
 }
 
 # get_releases
-version="v1.6.1"
-version_notv="1.6.1"
+# version="v1.6.1"
+# version_notv="1.6.1"
 
 download_file(){
     # https://github.com/prometheus/node_exporter/releases/download/v1.6.1/node_exporter-1.6.1.linux-amd64.tar.gz
@@ -150,6 +150,7 @@ update(){
     fi
     download_file
     install
+    exit
 }
 # 菜单界面
 while true :
